@@ -11,4 +11,9 @@ public class MessageController {
         return "message";
     }
 
+    @GetMapping("/msg")
+    public String getShortMessage() {
+        return "msg";
+    }
+
 }
